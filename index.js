@@ -98,13 +98,13 @@ const gcd = (a, b, steps = []) => {
  */
 
 const SolutionType = {
-  /** <code>'linear'</code> – Solutions are <code>x = mx n + px</code>, <code>y = my n + py</code>. */
+  /** <code>'linear'</code> – Solutions are <code>x = mx n + px</code>, <code>y = my n + py</code> */
   Linear: 'linear',
-  /** <code>'unique'</code> – When <code>a</code> or <code>b</code> is <code>0</code>, if a solution exists it's unique, e.g. <code>5x + 0y = 15 =></code> solution is <code>x = 3</code>. */
+  /** <code>'unique'</code> – When <code>a</code> or <code>b</code> is <code>0</code>, if a solution exists it's unique, e.g. <code>5x + 0y = 15 =></code> solution is <code>x = 3</code> */
   Unique: 'unique',
-  /** <code>'always-true'</code> – Values of <code>x</code> and <code>y</code> don't matter, e.g. <code>0x + 0y = 0</code>. */
+  /** <code>'always-true'</code> – Values of <code>x</code> and <code>y</code> don't matter, e.g. <code>0x + 0y = 0</code> */
   AlwaysTrue: 'always-true',
-  /** <code>'none'</code> – No solution, e.g. <code>8x + 6y = 1</code>. */
+  /** <code>'none'</code> – No solution, e.g. <code>8x + 6y = 1</code> */
   None: 'none',
   /** <code>'error'</code> – Something went wrong. */
   Error: 'error',
