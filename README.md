@@ -1,4 +1,5 @@
 # diophantine
+[![npm-publish](https://github.com/kevduc/diophantine/actions/workflows/npm-publish.yml/badge.svg)](https://github.com/kevduc/diophantine/actions/workflows/npm-publish.yml)
 
 Solve linear diophantine equations.
 
