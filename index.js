@@ -1,25 +1,8 @@
 /**
- * @typedef {Object} Result
- * @property {string} solutionType
- * Can be any of:
- * <pre>
- *  - 'linear': x = mx n + px, y = my n + py
- *  - 'unique': when x or y is 0, solution is a unique number
- *  - 'none': no solution
- *  - 'always-true': values of x and y don't matter, e.g. 0x + 0y = 0
- *  - 'error': somehting went wrong
- *  </pre>
- * @property {number|null} g Value of GCD(a,b), null if error.
- * @property {(Array|number|null)} z Initial solution [x0, y0] found using the Euclidean algorithm when solution is linear, single number when solution is unique, else null.
- * @property {Array|null} m Slope coefficients [mx, my] when solution is linear, else null.
- * @property {Array|null} p Intercepts [px, py] when solution is linear, else null.
- */
-
-/**
- * Solves a linear diophantine equation of the form: ax + by = c
+ * Solves a linear diophantine equation of the form: <code>ax + by = c</code>
  *
- * @param {number} a Coefficient for x
- * @param {number} b Coefficient for y
+ * @param {number} a Coefficient for <code>x</code>
+ * @param {number} b Coefficient for <code>y</code>
  * @param {number} c Right-side constant
  *
  * @returns {Result} One object with all the result values.
@@ -99,4 +82,32 @@ const gcd = (a, b, steps = []) => {
   return gcd(b, r, steps)
 }
 
-module.exports = dioSolve
+/**
+ * @typedef {Object} Result
+ * @property {SolutionType} solutionType Type of solution found, see <code>{@link SolutionType}</code> for more information.
+ * @property {number|null} g Value of <code>GCD(a,b)</code>, <code>null</code> if error.
+ * @property {(Array|number|null)} z Initial solution <code>[x0, y0]</code> found using the Euclidean algorithm when solution is linear, single number when solution is unique, else <code>null</code>.
+ * @property {Array|null} m Slope coefficients <code>[mx, my]</code> when solution is linear, else <code>null</code>.
+ * @property {Array|null} p Intercepts <code>[px, py]</code> when solution is linear, else <code>null</code>.
+ */
+
+/**
+ * Enum for solution type values.
+ * @readonly
+ * @enum {string}
+ */
+
+const SolutionType = {
+  /** <code>'linear'</code> – Solutions are <code>x = mx n + px</code>, <code>y = my n + py</code>. */
+  Linear: 'linear',
+  /** <code>'unique'</code> – When <code>a</code> or <code>b</code> is <code>0</code>, if a solution exists it's unique, e.g. <code>5x + 0y = 15 =></code> solution is <code>x = 3</code>. */
+  Unique: 'unique',
+  /** <code>'always-true'</code> – Values of <code>x</code> and <code>y</code> don't matter, e.g. <code>0x + 0y = 0</code>. */
+  AlwaysTrue: 'always-true',
+  /** <code>'none'</code> – No solution, e.g. <code>8x + 6y = 1</code>. */
+  None: 'none',
+  /** <code>'error'</code> – Something went wrong. */
+  Error: 'error',
+}
+
+module.exports = { dioSolve, SolutionType }

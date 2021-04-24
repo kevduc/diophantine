@@ -94,6 +94,226 @@
     
 
     
+        <h3 class="subsection-title">Members</h3>
+
+        
+            
+<h4 class="name" id="SolutionType"><span class="type-signature">(constant) </span>SolutionType<span class="type-signature"> :string</span></h4>
+
+
+
+
+<div class="description">
+    Enum for solution type values.
+</div>
+
+
+
+    <h5>Type:</h5>
+    <ul>
+        <li>
+            
+<span class="param-type">string</span>
+
+
+        </li>
+    </ul>
+
+
+
+
+
+    <h5 class="subsection-title">Properties:</h5>
+
+    
+
+<table class="props">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>Linear</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"><code>'linear'</code> – Solutions are <code>x = mx n + px</code>, <code>y = my n + py</code>.</td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>Unique</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"><code>'unique'</code> – When <code>a</code> or <code>b</code> is <code>0</code>, if a solution exists it's unique, e.g. <code>5x + 0y = 15 =></code> solution is <code>x = 3</code>.</td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>AlwaysTrue</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"><code>'always-true'</code> – Values of <code>x</code> and <code>y</code> don't matter, e.g. <code>0x + 0y = 0</code>.</td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>None</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"><code>'none'</code> – No solution, e.g. <code>8x + 6y = 1</code>.</td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>Error</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"><code>'error'</code> – Something went wrong.</td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="index.js.html">index.js</a>, <a href="index.js.html#line100">line 100</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+        
+    
 
     
         <h3 class="subsection-title">Methods</h3>
@@ -112,7 +332,7 @@
 
 
 <div class="description">
-    Solves a linear diophantine equation of the form: ax + by = c
+    Solves a linear diophantine equation of the form: <code>ax + by = c</code>
 </div>
 
 
@@ -164,7 +384,7 @@
 
             
 
-            <td class="description last">Coefficient for x</td>
+            <td class="description last">Coefficient for <code>x</code></td>
         </tr>
 
     
@@ -187,7 +407,7 @@
 
             
 
-            <td class="description last">Coefficient for y</td>
+            <td class="description last">Coefficient for <code>y</code></td>
         </tr>
 
     
@@ -251,7 +471,7 @@
     
     <dt class="tag-source">Source:</dt>
     <dd class="tag-source"><ul class="dummy"><li>
-        <a href="index.js.html">index.js</a>, <a href="index.js.html#line28">line 28</a>
+        <a href="index.js.html">index.js</a>, <a href="index.js.html#line11">line 11</a>
     </li></ul></dd>
     
 
@@ -364,7 +584,7 @@
             <td class="type">
             
                 
-<span class="param-type">string</span>
+<span class="param-type"><a href="global.html#SolutionType">SolutionType</a></span>
 
 
             
@@ -374,7 +594,7 @@
 
             
 
-            <td class="description last">Can be any of:<pre> - 'linear': x = mx n + px, y = my n + py - 'unique': when x or y is 0, solution is a unique number - 'none': no solution - 'always-true': values of x and y don't matter, e.g. 0x + 0y = 0 - 'error': somehting went wrong </pre></td>
+            <td class="description last">Type of solution found, see <code><a href="global.html#SolutionType">SolutionType</a></code> for more information.</td>
         </tr>
 
     
@@ -400,7 +620,7 @@
 
             
 
-            <td class="description last">Value of GCD(a,b), null if error.</td>
+            <td class="description last">Value of <code>GCD(a,b)</code>, <code>null</code> if error.</td>
         </tr>
 
     
@@ -429,7 +649,7 @@
 
             
 
-            <td class="description last">Initial solution [x0, y0] found using the Euclidean algorithm when solution is linear, single number when solution is unique, else null.</td>
+            <td class="description last">Initial solution <code>[x0, y0]</code> found using the Euclidean algorithm when solution is linear, single number when solution is unique, else <code>null</code>.</td>
         </tr>
 
     
@@ -455,7 +675,7 @@
 
             
 
-            <td class="description last">Slope coefficients [mx, my] when solution is linear, else null.</td>
+            <td class="description last">Slope coefficients <code>[mx, my]</code> when solution is linear, else <code>null</code>.</td>
         </tr>
 
     
@@ -481,7 +701,7 @@
 
             
 
-            <td class="description last">Intercepts [px, py] when solution is linear, else null.</td>
+            <td class="description last">Intercepts <code>[px, py]</code> when solution is linear, else <code>null</code>.</td>
         </tr>
 
     
@@ -520,7 +740,7 @@
     
     <dt class="tag-source">Source:</dt>
     <dd class="tag-source"><ul class="dummy"><li>
-        <a href="index.js.html">index.js</a>, <a href="index.js.html#line1">line 1</a>
+        <a href="index.js.html">index.js</a>, <a href="index.js.html#line85">line 85</a>
     </li></ul></dd>
     
 
@@ -550,13 +770,13 @@
 </div>
 
 <nav>
-    <h2><a href="index.html">Home</a></h2><h3>Global</h3><ul><li><a href="global.html#dioSolve">dioSolve</a></li></ul>
+    <h2><a href="index.html">Home</a></h2><h3>Global</h3><ul><li><a href="global.html#dioSolve">dioSolve</a></li><li><a href="global.html#SolutionType">SolutionType</a></li></ul>
 </nav>
 
 <br class="clear">
 
 <footer>
-    Documentation generated by <a href="https://github.com/jsdoc/jsdoc">JSDoc 3.6.6</a> on Sat Apr 24 2021 02:30:29 GMT+0100 (British Summer Time)
+    Documentation generated by <a href="https://github.com/jsdoc/jsdoc">JSDoc 3.6.6</a> on Sat Apr 24 2021 04:14:38 GMT+0100 (British Summer Time)
 </footer>
 
 <script> prettyPrint(); </script>
