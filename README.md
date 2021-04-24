@@ -38,7 +38,7 @@ switch (solutionType) {
     break
   }
   default: {
-    console.log(`Solution: ${solutionType}`)
+    console.log(`Solutions: ${solutionType}`)
     break
   }
 }
@@ -51,5 +51,5 @@ Solving: 59x + -7y = 4
    gcd = 1
    x0 = -8, y0 = -68
    59 × -8 + -7 × -68 = 4
-Solution: x = 7n + 6, y = 59n + 50
+Solutions: x = 7n + 6, y = 59n + 50
 ```

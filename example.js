@@ -21,7 +21,7 @@ switch (solutionType) {
     console.log(`   gcd = ${g}`)
     console.log(`   x0 = ${z[0]}, y0 = ${z[1]}`)
     console.log(`   ${a} × ${z[0]} + ${b} × ${z[1]} = ${z[0] * a + z[1] * b}`)
-    console.log(`Solution: x = ${m[0]}n + ${p[0]}, y = ${m[1]}n + ${p[1]}`)
+    console.log(`Solutions: x = ${m[0]}n + ${p[0]}, y = ${m[1]}n + ${p[1]}`)
     break
   }
   default: {
@@ -37,6 +37,6 @@ switch (solutionType) {
  *    gcd = 1
  *    x0 = -8, y0 = -68
  *    59 × -8 + -7 × -68 = 4
- * Solution: x = 7n + 6, y = 59n + 50
+ * Solutions: x = 7n + 6, y = 59n + 50
  *
  */
