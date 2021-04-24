@@ -1,6 +1,6 @@
 # diophantine
 
-Solve linear diophantine equations
+Solve linear diophantine equations.
 
 ## Example
 

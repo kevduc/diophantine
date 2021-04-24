@@ -4,19 +4,35 @@
   "description": "Solve linear diophantine equations",
   "main": "index.js",
   "scripts": {
-    "test": "",
     "example": "node example.js",
-    "docs": "jsdoc -d ./docs/ -R ./README.md ./index.js"
+    "docs": "jsdoc -d ./docs/ -R ./README.md ./index.js",
+    "postdocs": "replace-in-files --string='<title>JSDoc: ' --replacement='<title>diophantine – ' ./docs/**/*.html"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kevduc/diophantine.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "maths",
+    "mathematics",
+    "diophantine",
+    "diophantines",
+    "equation",
+    "equations",
+    "solve",
+    "solver",
+    "solving",
+    "linear",
+    "degree"
+  ],
+  "author": "kevduc",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/kevduc/diophantine/issues"
   },
-  "homepage": "https://github.com/kevduc/diophantine#readme"
+  "homepage": "https://github.com/kevduc/diophantine#readme",
+  "devDependencies": {
+    "jsdoc": "^3.6.6",
+    "replace-in-files-cli": "^1.0.0"
+  }
 }
