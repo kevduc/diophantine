@@ -2,14 +2,14 @@
 
 Solve linear diophantine equations.
 
-### npm
+**npm**  
 **`npm i diophantine`**  
-[npmjs.com/diophantine](https://www.npmjs.com/package/diophantine)  
+[npmjs.com/diophantine](https://www.npmjs.com/package/diophantine)
 
-### Documentation
+**Documentation**  
 [kevduc.github.io/diophantine](https://kevduc.github.io/diophantine/)
 
-### GitHub
+**GitHub**  
 [kevduc/diophantine](https://github.com/kevduc/diophantine)
 
 ## Example
