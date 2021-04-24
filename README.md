@@ -2,6 +2,10 @@
 
 Solve linear diophantine equations
 
+**Documentation:** [kevduc.github.io/diophantine](https://kevduc.github.io/diophantine/)
+
+**GitHub repository:** [kevduc/diophantine](https://github.com/kevduc/diophantine)
+
 ## Example
 
 ### `example.js`
