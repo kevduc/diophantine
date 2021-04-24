@@ -1,10 +1,17 @@
 # diophantine
+[![npm-publish](https://github.com/kevduc/diophantine/actions/workflows/npm-publish.yml/badge.svg)](https://github.com/kevduc/diophantine/actions/workflows/npm-publish.yml)
 
 Solve linear diophantine equations.
 
-**Documentation:** [kevduc.github.io/diophantine](https://kevduc.github.io/diophantine/)
+**npm**  
+**`npm i diophantine`**  
+[npmjs.com/diophantine](https://www.npmjs.com/package/diophantine)
 
-**GitHub repository:** [kevduc/diophantine](https://github.com/kevduc/diophantine)
+**Documentation**  
+[kevduc.github.io/diophantine](https://kevduc.github.io/diophantine/)
+
+**GitHub**  
+[kevduc/diophantine](https://github.com/kevduc/diophantine)
 
 ## Example
 

@@ -1,6 +1,6 @@
 {
   "name": "diophantine",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "Solve linear diophantine equations",
   "main": "index.js",
   "scripts": {
