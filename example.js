@@ -6,7 +6,7 @@ const c = 4
 
 console.log(`Solving: ${a}x + ${b}y = ${c}`)
 
-const { z, m, p, g, solutionType } = dioSolve(a, b, c)
+const { solutionType, g, z, m, p } = dioSolve(a, b, c)
 
 switch (solutionType) {
   case 'none': {
