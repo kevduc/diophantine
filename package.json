@@ -6,7 +6,7 @@
   "scripts": {
     "test": "",
     "example": "node example.js",
-    "doc": "jsdoc -d ./doc/ -R ./README.md ./index.js"
+    "docs": "jsdoc -d ./docs/ -R ./README.md ./index.js"
   },
   "repository": {
     "type": "git",
