@@ -6,7 +6,8 @@
   "scripts": {
     "example": "node example.js",
     "docs": "jsdoc -d ./docs/ -R ./README.md ./index.js",
-    "postdocs": "replace-in-files --string='<title>JSDoc: ' --replacement='<title>diophantine – ' ./docs/**/*.html"
+    "postdocs": "replace-in-files --string='<title>JSDoc: ' --replacement='<title>diophantine – ' ./docs/**/*.html",
+    "viedocs": "start ./docs/index.html"
   },
   "repository": {
     "type": "git",
