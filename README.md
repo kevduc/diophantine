@@ -5,7 +5,7 @@
 [![build](https://img.shields.io/github/workflow/status/kevduc/diophantine/npm-publish?style=plastic)](https://github.com/kevduc/diophantine/actions/workflows/npm-publish.yml)
 [![last-commit](https://img.shields.io/github/last-commit/kevduc/diophantine?style=plastic)](https://github.com/kevduc/diophantine/commits/main)
 
-Solve linear diophantine equations ax + by = c
+Solve linear diophantine equations `ax + by = c`
 
 **npm**  
 **`npm i diophantine`**  
