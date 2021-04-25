@@ -1,7 +1,11 @@
 # diophantine
-[![npm-publish](https://github.com/kevduc/diophantine/actions/workflows/npm-publish.yml/badge.svg)](https://github.com/kevduc/diophantine/actions/workflows/npm-publish.yml)
 
-Solve linear diophantine equations.
+[![npm-package](https://img.shields.io/npm/v/diophantine?style=plastic)](https://www.npmjs.com/package/diophantine)
+[![npm-downloads](https://img.shields.io/npm/dt/diophantine?label=npm%20downloads&style=plastic)](https://www.npmjs.com/package/diophantine)
+[![build](https://img.shields.io/github/workflow/status/kevduc/diophantine/npm-publish?style=plastic)](https://github.com/kevduc/diophantine/actions/workflows/npm-publish.yml)
+[![last-commit](https://img.shields.io/github/last-commit/kevduc/diophantine?style=plastic)](https://github.com/kevduc/diophantine/commits/main)
+
+Solve linear diophantine equations ax + by = c
 
 **npm**  
 **`npm i diophantine`**  
