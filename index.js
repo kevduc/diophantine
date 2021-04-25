@@ -97,7 +97,7 @@ const gcd = (a, b, steps = []) => {
  * @enum {string}
  */
 
-const SolutionType = {
+const SolutionType = Object.freeze({
   /** <code>'linear'</code> – Solutions are <code>x = mx n + px</code>, <code>y = my n + py</code> */
   Linear: 'linear',
   /** <code>'unique'</code> – When <code>a</code> or <code>b</code> is <code>0</code>, if a solution exists it's unique, e.g. <code>5x + 0y = 15 =></code> solution is <code>x = 3</code> */
@@ -108,6 +108,6 @@ const SolutionType = {
   None: 'none',
   /** <code>'error'</code> – Something went wrong. */
   Error: 'error',
-}
+})
 
 module.exports = { dioSolve, SolutionType }
