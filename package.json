@@ -1,18 +1,25 @@
 {
   "name": "diophantine",
-  "version": "1.0.5",
   "description": "Solve linear diophantine equations",
+  "version": "1.0.6",
+  "author": "kevduc",
+  "license": "ISC",
   "main": "index.js",
   "scripts": {
+    "test": "jest --coverage",
     "example": "node example.js",
-    "docs": "jsdoc -d ./docs/ -R ./README.md ./index.js",
-    "postdocs": "replace-in-files --string='<title>JSDoc: ' --replacement='<title>diophantine – ' ./docs/**/*.html",
-    "viedocs": "start ./docs/index.html"
+    "build-doc": "jsdoc -d ./docs/ -R ./README.md ./index.js",
+    "postbuild-doc": "replace-in-files --string='<title>JSDoc: ' --replacement='<title>diophantine – ' ./docs/**/*.html",
+    "open-doc": "start ./docs/index.html"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kevduc/diophantine.git"
   },
+  "bugs": {
+    "url": "https://github.com/kevduc/diophantine/issues"
+  },
+  "homepage": "https://github.com/kevduc/diophantine#readme",
   "keywords": [
     "solver",
     "equation",
@@ -36,13 +43,8 @@
     "linear-solutions",
     "degree"
   ],
-  "author": "kevduc",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/kevduc/diophantine/issues"
-  },
-  "homepage": "https://github.com/kevduc/diophantine#readme",
   "devDependencies": {
+    "jest": "^26.6.3",
     "jsdoc": "^3.6.6",
     "replace-in-files-cli": "^1.0.0"
   }

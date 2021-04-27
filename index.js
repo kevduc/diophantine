@@ -61,8 +61,8 @@ const dioSolve = (a, b, c) => {
 
   // Offset x0 and y0 to be of the same sign as the m-coefficients
   const n = [0, 1].map((i) => Math.floor(z[i] / m[i]))
-  const addN = n[Number(Math.abs(n[1]) > Math.abs(n[0]))]
-  const p = [0, 1].map((i) => z[i] - addN * m[i])
+  const nMax = n[Number(Math.abs(n[1]) > Math.abs(n[0]))]
+  const p = [0, 1].map((i) => z[i] - nMax * m[i])
 
   return {
     z,
@@ -106,7 +106,7 @@ const SolutionType = {
   AlwaysTrue: 'always-true',
   /** <code>'none'</code> – No solution, e.g. <code>8x + 6y = 1</code> */
   None: 'none',
-  /** <code>'error'</code> – Something went wrong. */
+  /** <code>'error'</code> – Something went wrong */
   Error: 'error',
 }
 
