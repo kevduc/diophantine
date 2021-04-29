@@ -1,5 +1,5 @@
 /**
- * Solves a linear diophantine equation of the form: <code>ax + by = c</code>
+ * Solves a linear Diophantine equation of the form: <code>ax + by = c</code>
  *
  * @param {number} a Coefficient for <code>x</code>
  * @param {number} b Coefficient for <code>y</code>

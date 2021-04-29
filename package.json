@@ -5,11 +5,15 @@
   "author": "kevduc",
   "license": "ISC",
   "main": "index.js",
+  "files": [
+    "index.js"
+  ],
   "scripts": {
-    "test": "jest --coverage",
+    "test": "jest --coverage --json --outputFile=test-results.json",
+    "open-coverage": "start ./coverage/lcov-report/index.html",
     "example": "node example.js",
     "build-doc": "jsdoc -d ./docs/ -R ./README.md ./index.js",
-    "postbuild-doc": "replace-in-files --string='<title>JSDoc: ' --replacement='<title>diophantine – ' ./docs/**/*.html",
+    "postbuild-doc": "replace-in-files --string='<title>JSDoc: ' --replacement='<title>diophantine – ' ./docs/**/*.html && copyfiles -a \"./logo/diophantine.png\" \"./docs\"",
     "open-doc": "start ./docs/index.html"
   },
   "repository": {
@@ -20,6 +24,16 @@
     "url": "https://github.com/kevduc/diophantine/issues"
   },
   "homepage": "https://github.com/kevduc/diophantine#readme",
+  "funding": [
+    {
+      "type": "Crypto (Coinbase)",
+      "url": "https://commerce.coinbase.com/checkout/97a05cdf-7d82-4f9a-9a24-fbbc65ac5a4d"
+    },
+    {
+      "type": "Chocolate",
+      "url": "https://commerce.coinbase.com/checkout/524c088f-9046-40ca-b2f4-605774b7b7fe"
+    }
+  ],
   "keywords": [
     "solver",
     "equation",

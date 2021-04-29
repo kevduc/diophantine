@@ -1,20 +1,30 @@
-# diophantine
+<p style="text-align:center; font-size:large;" >
+  <a href="https://kevduc.github.io/diophantine/">
+    <img alt="diophantine" src="./logo/diophantine.png">
+  </a>
+</p>
 
+<p style="text-align:center; font-size:large; margin-bottom:2em;" >
+    Solve linear Diophantine equations<br/>
+    <code>ax + by = c</code>
+</p>
+
+[![build](https://img.shields.io/github/workflow/status/kevduc/diophantine/npm-publish?style=plastic)](https://github.com/kevduc/diophantine/actions/workflows/npm-publish.yml)
 [![npm-package](https://img.shields.io/npm/v/diophantine?style=plastic)](https://www.npmjs.com/package/diophantine)
 [![npm-downloads](https://img.shields.io/npm/dt/diophantine?label=npm%20downloads&style=plastic)](https://www.npmjs.com/package/diophantine)
-[![build](https://img.shields.io/github/workflow/status/kevduc/diophantine/npm-publish?style=plastic)](https://github.com/kevduc/diophantine/actions/workflows/npm-publish.yml)
 [![last-commit](https://img.shields.io/github/last-commit/kevduc/diophantine?style=plastic)](https://github.com/kevduc/diophantine/commits/main)
 
-Solve linear diophantine equations `ax + by = c`
+### **npm**
 
-**npm**  
 **`npm i diophantine`**  
 [npmjs.com/diophantine](https://www.npmjs.com/package/diophantine)
 
-**Documentation**  
+### **Documentation**
+
 [kevduc.github.io/diophantine](https://kevduc.github.io/diophantine/)
 
-**GitHub**  
+### **GitHub**
+
 [kevduc/diophantine](https://github.com/kevduc/diophantine)
 
 ## Example
@@ -59,8 +69,12 @@ switch (solutionType) {
 
 ```
 Solving: 59x + -7y = 4
-   gcd = 1
-   x0 = -8, y0 = -68
-   59 × -8 + -7 × -68 = 4
+  gcd = 1
+  x0 = -8, y0 = -68
+  59 × -8 + -7 × -68 = 4
 Solutions: x = 7n + 6, y = 59n + 50
 ```
+
+## Support the dev
+
+[Buy him a hot chocolate with crypto](https://commerce.coinbase.com/checkout/97a05cdf-7d82-4f9a-9a24-fbbc65ac5a4d)
