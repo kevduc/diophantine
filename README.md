@@ -13,6 +13,7 @@
 [![npm-package](https://img.shields.io/npm/v/diophantine?style=plastic)](https://www.npmjs.com/package/diophantine)
 [![npm-downloads](https://img.shields.io/npm/dt/diophantine?label=npm%20downloads&style=plastic)](https://www.npmjs.com/package/diophantine)
 [![last-commit](https://img.shields.io/github/last-commit/kevduc/diophantine?style=plastic)](https://github.com/kevduc/diophantine/commits/main)
+[![donate-with-crypto](https://img.shields.io/static/v1?logo=&label=donate&message=with%20crypto&color=blue&style=plastic)](https://commerce.coinbase.com/checkout/97a05cdf-7d82-4f9a-9a24-fbbc65ac5a4d)
 
 ### **npm**
 
@@ -77,4 +78,4 @@ Solutions: x = 7n + 6, y = 59n + 50
 
 ## Support the dev
 
-[Buy him a hot chocolate with crypto](https://commerce.coinbase.com/checkout/97a05cdf-7d82-4f9a-9a24-fbbc65ac5a4d)
+[Donate a hot chocolate with crypto](https://commerce.coinbase.com/checkout/97a05cdf-7d82-4f9a-9a24-fbbc65ac5a4d)
