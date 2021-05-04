@@ -10,6 +10,7 @@
 </p>
 
 [![npm package](https://img.shields.io/npm/v/diophantine)](https://www.npmjs.com/package/diophantine)
+[![documentation](https://img.shields.io/github/v/release/kevduc/diophantine?label=documentation)](https://kevduc.github.io/diophantine)
 [![downloads](https://img.shields.io/npm/dt/diophantine?label=downloads)](https://www.npmjs.com/package/diophantine)
 ![open issues](https://img.shields.io/github/issues-raw/kevduc/diophantine)
 [![dependencies](https://david-dm.org/kevduc/diophantine.svg)](https://david-dm.org/kevduc/diophantine)
