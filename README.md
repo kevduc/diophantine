@@ -1,10 +1,10 @@
-<p style="text-align:center; font-size:large;" >
+<p align="center" style="text-align:center; font-size:large;" >
   <a href="https://kevduc.github.io/diophantine/">
     <img alt="diophantine" src="./logo/diophantine.png">
   </a>
 </p>
 
-<p style="text-align:center; font-size:large; margin-bottom:2em;" >
+<p align="center" style="text-align:center; font-size:large; margin-bottom:2em;" >
     Solve linear Diophantine equations<br/>
     <code>ax + by = c</code>
 </p>
