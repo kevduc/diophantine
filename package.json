@@ -12,8 +12,8 @@
     "test": "jest --coverage --json --outputFile=test-results.json",
     "open-coverage": "start ./coverage/lcov-report/index.html",
     "example": "node example.js",
-    "build-doc": "jsdoc -d ./docs/ -R ./README.md ./index.js",
-    "postbuild-doc": "replace-in-files --string='<title>JSDoc: ' --replacement='<title>diophantine – ' ./docs/**/*.html && copyfiles -a \"./logo/diophantine.png\" \"./docs\"",
+    "generate-doc": "jsdoc -c ./jsdoc.conf.json -R ./README.md",
+    "postgenerate-doc": "copyfiles -a './logo/diophantine.png' './docs'",
     "open-doc": "start ./docs/index.html"
   },
   "repository": {
@@ -60,6 +60,6 @@
   "devDependencies": {
     "jest": "^26.6.3",
     "jsdoc": "^3.6.6",
-    "replace-in-files-cli": "^1.0.0"
+    "replace-in-file": "^6.2.0"
   }
 }

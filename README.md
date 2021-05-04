@@ -9,22 +9,27 @@
     <code>ax + by = c</code>
 </p>
 
-[![build](https://img.shields.io/github/workflow/status/kevduc/diophantine/npm-publish?style=plastic)](https://github.com/kevduc/diophantine/actions/workflows/npm-publish.yml)
-[![npm-package](https://img.shields.io/npm/v/diophantine?style=plastic)](https://www.npmjs.com/package/diophantine)
-[![npm-downloads](https://img.shields.io/npm/dt/diophantine?label=npm%20downloads&style=plastic)](https://www.npmjs.com/package/diophantine)
-[![last-commit](https://img.shields.io/github/last-commit/kevduc/diophantine?style=plastic)](https://github.com/kevduc/diophantine/commits/main)
-[![donate-with-crypto](https://img.shields.io/static/v1?logo=&label=donate&message=with%20crypto&color=blue&style=plastic)](https://commerce.coinbase.com/checkout/97a05cdf-7d82-4f9a-9a24-fbbc65ac5a4d)
+[![npm package](https://img.shields.io/npm/v/diophantine)](https://www.npmjs.com/package/diophantine)
+[![downloads](https://img.shields.io/npm/dt/diophantine?label=downloads)](https://www.npmjs.com/package/diophantine)
+![open issues](https://img.shields.io/github/issues-raw/kevduc/diophantine)
+[![dependencies](https://david-dm.org/kevduc/diophantine.svg)](https://david-dm.org/kevduc/diophantine)
+[![build](https://img.shields.io/github/workflow/status/kevduc/diophantine/npm-publish)](https://github.com/kevduc/diophantine/actions/workflows/npm-publish.yml)
+[![last commit](https://img.shields.io/github/last-commit/kevduc/diophantine)](https://github.com/kevduc/diophantine/commits/main)
+![license](https://img.shields.io/github/license/kevduc/diophantine)
+[![donate with crypto](https://img.shields.io/static/v1?logo=&label=donate&message=with%20crypto&color=blueviolet)](https://commerce.coinbase.com/checkout/97a05cdf-7d82-4f9a-9a24-fbbc65ac5a4d)
 
-### **npm**
+<!-- [![package health](https://snyk.io/advisor/npm-package/diophantine/badge.svg)](https://snyk.io/advisor/npm-package/diophantine) -->
+
+#### **npm**
 
 **`npm i diophantine`**  
 [npmjs.com/diophantine](https://www.npmjs.com/package/diophantine)
 
-### **Documentation**
+#### **Documentation**
 
 [kevduc.github.io/diophantine](https://kevduc.github.io/diophantine/)
 
-### **GitHub**
+#### **GitHub**
 
 [kevduc/diophantine](https://github.com/kevduc/diophantine)
 
@@ -49,7 +54,7 @@ switch (solutionType) {
     break
   }
   case SolutionType.Unique: {
-    console.log(`Unique solution: ${z[0] ? `x = ${z[0]}` : `y = ${z[1]}`}`)
+    console.log(`Unique solution: ${z[0] !== null ? `x = ${z[0]}` : `y = ${z[1]}`}`)
     break
   }
   case SolutionType.Linear: {
@@ -78,4 +83,4 @@ Solutions: x = 7n + 6, y = 59n + 50
 
 ## Support the dev
 
-[Donate a hot chocolate with crypto](https://commerce.coinbase.com/checkout/97a05cdf-7d82-4f9a-9a24-fbbc65ac5a4d)
+<p style="font-size:larger"><a href="https://commerce.coinbase.com/checkout/97a05cdf-7d82-4f9a-9a24-fbbc65ac5a4d">Donate a hot chocolate with crypto</a></p>

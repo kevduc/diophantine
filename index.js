@@ -28,7 +28,7 @@ const dioSolve = (a, b, c) => {
 
   if (a === 0 || b === 0) {
     const i = Number((a === 0) ^ swap)
-    let z = [0, 0]
+    let z = [null, null]
     z[i] = c / g
     return { ...defaultReturn, z, g, solutionType: 'unique' }
   }
@@ -86,9 +86,9 @@ const gcd = (a, b, steps = []) => {
  * @typedef {Object} Result
  * @property {SolutionType} solutionType Type of solution found, see <code>{@link SolutionType}</code> for more information.
  * @property {number|null} g Value of <code>GCD(a,b)</code>, <code>null</code> if error.
- * @property {(Array|number|null)} z Initial solution <code>[x0, y0]</code> found using the Euclidean algorithm when solution is linear, single number when solution is unique, else <code>null</code>.
- * @property {Array|null} m Slope coefficients <code>[mx, my]</code> when solution is linear, else <code>null</code>.
- * @property {Array|null} p Intercepts <code>[px, py]</code> when solution is linear, else <code>null</code>.
+ * @property {(Array|null)} z Initial solution <code>[x<sub>0</sub>, y<sub>0</sub>]</code> found using the Euclidean algorithm when solution is linear, <code>[x<sub>0</sub>, null]</code> or <code>[null, y<sub>0</sub>]</code> when solution is unique, else <code>null</code>.
+ * @property {Array|null} m Slope coefficients <code>[m<sub>x</sub>, m<sub>y</sub>]</code> when solution is linear, else <code>null</code>.
+ * @property {Array|null} p Intercepts <code>[p<sub>x</sub>, p<sub>y</sub>]</code> when solution is linear, else <code>null</code>.
  */
 
 /**
@@ -98,9 +98,9 @@ const gcd = (a, b, steps = []) => {
  */
 
 const SolutionType = {
-  /** <code>'linear'</code> – Solutions are <code>x = mx n + px</code>, <code>y = my n + py</code> */
+  /** <code>'linear'</code> – Solutions are <code>x = m<sub>x</sub>n + p<sub>x</sub></code>, <code>y = m<sub>y</sub>n + p<sub>y</sub></code> */
   Linear: 'linear',
-  /** <code>'unique'</code> – When <code>a</code> or <code>b</code> is <code>0</code>, if a solution exists it's unique, e.g. <code>5x + 0y = 15 =></code> solution is <code>x = 3</code> */
+  /** <code>'unique'</code> – When <code>a</code> or <code>b</code> is <code>0</code>, if a solution exists it's unique, e.g. <code>5x + 0y = 15</code> <code>=></code> solution is <code>x = 3</code> */
   Unique: 'unique',
   /** <code>'always-true'</code> – Values of <code>x</code> and <code>y</code> don't matter, e.g. <code>0x + 0y = 0</code> */
   AlwaysTrue: 'always-true',

@@ -46,18 +46,6 @@
     </linearGradient>
     <linearGradient
        inkscape:collect="always"
-       id="linearGradient2161">
-      <stop
-         style="stop-color:#141414;stop-opacity:1;"
-         offset="0"
-         id="stop2157" />
-      <stop
-         style="stop-color:#838383;stop-opacity:1"
-         offset="1"
-         id="stop2159" />
-    </linearGradient>
-    <linearGradient
-       inkscape:collect="always"
        id="linearGradient1218">
       <stop
          style="stop-color:#2f2f2f;stop-opacity:1;"
@@ -164,16 +152,6 @@
        y2="44.132" />
     <linearGradient
        inkscape:collect="always"
-       xlink:href="#linearGradient2161"
-       id="linearGradient2163"
-       x1="165.96"
-       y1="78.627"
-       x2="176.02"
-       y2="158.46"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="translate(-0.7522)" />
-    <linearGradient
-       inkscape:collect="always"
        xlink:href="#linearGradient2169"
        id="linearGradient2173"
        gradientUnits="userSpaceOnUse"
@@ -250,16 +228,6 @@
        gradientTransform="translate(-2.2566)" />
     <linearGradient
        inkscape:collect="always"
-       xlink:href="#linearGradient2161"
-       id="linearGradient902"
-       gradientUnits="userSpaceOnUse"
-       x1="165.96"
-       y1="78.627"
-       x2="176.02"
-       y2="158.46"
-       gradientTransform="translate(-2.2566)" />
-    <linearGradient
-       inkscape:collect="always"
        xlink:href="#linearGradient2210"
        id="linearGradient904"
        gradientUnits="userSpaceOnUse"
@@ -267,16 +235,6 @@
        y1="34.5"
        x2="335.77"
        y2="51.274"
-       gradientTransform="translate(-1.5044)" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient2161"
-       id="linearGradient906"
-       gradientUnits="userSpaceOnUse"
-       x1="165.96"
-       y1="78.627"
-       x2="176.02"
-       y2="158.46"
        gradientTransform="translate(-1.5044)" />
     <linearGradient
        inkscape:collect="always"
@@ -290,26 +248,6 @@
        gradientTransform="matrix(0.38588,0,0,0.38588,-60.647,-25.077)" />
     <linearGradient
        inkscape:collect="always"
-       xlink:href="#linearGradient2161"
-       id="linearGradient907"
-       gradientUnits="userSpaceOnUse"
-       x1="165.96"
-       y1="78.627"
-       x2="176.02"
-       y2="158.46"
-       gradientTransform="matrix(1.4583,0,0,1.4583,-57.139,-21.986)" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient2161"
-       id="linearGradient909"
-       gradientUnits="userSpaceOnUse"
-       x1="165.96"
-       y1="78.627"
-       x2="176.02"
-       y2="158.46"
-       gradientTransform="translate(0.51679)" />
-    <linearGradient
-       inkscape:collect="always"
        xlink:href="#linearGradient1218"
        id="linearGradient911"
        gradientUnits="userSpaceOnUse"
@@ -319,34 +257,6 @@
        y2="51.274" />
     <linearGradient
        inkscape:collect="always"
-       xlink:href="#linearGradient2161"
-       id="linearGradient913"
-       gradientUnits="userSpaceOnUse"
-       x1="165.96"
-       y1="78.627"
-       x2="176.02"
-       y2="158.46" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient2161"
-       id="linearGradient936"
-       gradientUnits="userSpaceOnUse"
-       x1="165.96"
-       y1="78.627"
-       x2="176.02"
-       y2="158.46" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient2161"
-       id="linearGradient914"
-       gradientUnits="userSpaceOnUse"
-       x1="165.96"
-       y1="78.627"
-       x2="176.02"
-       y2="158.46"
-       gradientTransform="matrix(1.4583,0,0,1.4583,-59.615,-21.471)" />
-    <linearGradient
-       inkscape:collect="always"
        xlink:href="#linearGradient2210"
        id="linearGradient916"
        gradientUnits="userSpaceOnUse"
@@ -354,16 +264,6 @@
        y1="34.5"
        x2="335.77"
        y2="51.274"
-       gradientTransform="translate(-0.7522)" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient2161"
-       id="linearGradient918"
-       gradientUnits="userSpaceOnUse"
-       x1="165.96"
-       y1="78.627"
-       x2="176.02"
-       y2="158.46"
        gradientTransform="translate(-0.7522)" />
     <linearGradient
        inkscape:collect="always"
@@ -377,16 +277,6 @@
        gradientTransform="translate(-0.7522)" />
     <linearGradient
        inkscape:collect="always"
-       xlink:href="#linearGradient2161"
-       id="linearGradient922"
-       gradientUnits="userSpaceOnUse"
-       x1="165.96"
-       y1="78.627"
-       x2="176.02"
-       y2="158.46"
-       gradientTransform="translate(-0.7522)" />
-    <linearGradient
-       inkscape:collect="always"
        xlink:href="#linearGradient2210"
        id="linearGradient924"
        gradientUnits="userSpaceOnUse"
@@ -397,16 +287,6 @@
        gradientTransform="translate(-0.7522)" />
     <linearGradient
        inkscape:collect="always"
-       xlink:href="#linearGradient2161"
-       id="linearGradient926"
-       gradientUnits="userSpaceOnUse"
-       x1="165.96"
-       y1="78.627"
-       x2="176.02"
-       y2="158.46"
-       gradientTransform="translate(-0.7522)" />
-    <linearGradient
-       inkscape:collect="always"
        xlink:href="#linearGradient2210"
        id="linearGradient928"
        gradientUnits="userSpaceOnUse"
@@ -414,16 +294,6 @@
        y1="34.5"
        x2="335.77"
        y2="51.274"
-       gradientTransform="translate(-0.7522)" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient2161"
-       id="linearGradient930"
-       gradientUnits="userSpaceOnUse"
-       x1="165.96"
-       y1="78.627"
-       x2="176.02"
-       y2="158.46"
        gradientTransform="translate(-0.7522)" />
     <linearGradient
        inkscape:collect="always"
@@ -443,9 +313,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.64517"
-     inkscape:cx="425.49"
-     inkscape:cy="200.47"
+     inkscape:zoom="0.62811"
+     inkscape:cx="587.2"
+     inkscape:cy="183.09"
      inkscape:document-units="px"
      inkscape:current-layer="g934"
      inkscape:document-rotation="0"
@@ -453,9 +323,9 @@
      units="px"
      inkscape:window-width="1920"
      inkscape:window-height="1017"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
-     inkscape:window-maximized="1" />
+     inkscape:window-x="-32000"
+     inkscape:window-y="-32000"
+     inkscape:window-maximized="0" />
   <metadata
      id="metadata5">
     <rdf:RDF>
@@ -524,17 +394,20 @@
                               <g
                                  id="g934"
                                  style="stroke-width:3.8588;stroke-miterlimit:4;stroke-dasharray:none">
+                                <g
+                                   id="g1044"
+                                   style="stroke:#414141;stroke-opacity:0.84274">
                                 <text
                                    xml:space="preserve"
                                    id="text833-6-5"
-                                   style="font-style:normal;font-weight:normal;font-size:10.5835px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect835-6-8);fill:url(#linearGradient2270);fill-opacity:1;stroke:url(#linearGradient936);stroke-width:0.39224;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers;"
+                                   style="font-style:normal;font-weight:normal;font-size:10.5835px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect835-6-8);fill:url(#linearGradient2270);fill-opacity:1;stroke:#414141;stroke-width:0.37356;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.84274;paint-order:stroke fill markers;stroke-linecap:round;"
                                    transform="matrix(-9.5629,0,0,11.158,454.62,-606.87)"><tspan
                                    x="44.646"
                                    y="61.292"><tspan
-                                   style="fill:url(#linearGradient2270);fill-opacity:1;stroke:url(#linearGradient936);stroke-width:0.39224;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers">D</tspan></tspan></text>
+                                   style="fill:url(#linearGradient2270);fill-opacity:1;stroke:#414141;stroke-width:0.37356;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.84274;paint-order:stroke fill markers">D</tspan></tspan></text>
                                 <text
                                    xml:space="preserve"
-                                   style="font-style:normal;font-weight:normal;font-size:50.8318px;line-height:1.25;font-family:sans-serif;fill:url(#linearGradient2274);fill-opacity:1;stroke:url(#linearGradient907);stroke-width:4.05173;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+                                   style="font-style:normal;font-weight:normal;font-size:50.8318px;line-height:1.25;font-family:sans-serif;fill:url(#linearGradient2274);fill-opacity:1;stroke:#414141;stroke-width:3.85879;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.84274;paint-order:stroke fill markers;stroke-linecap:round"
                                    x="17.934"
                                    y="55.194"
                                    id="text889-7"
@@ -543,10 +416,10 @@
                                    id="tspan887-9"
                                    x="17.934"
                                    y="55.194"
-                                   style="fill:url(#linearGradient2274);fill-opacity:1;stroke:url(#linearGradient907);stroke-width:4.05173;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers">i</tspan></text>
+                                   style="fill:url(#linearGradient2274);fill-opacity:1;stroke:#414141;stroke-width:3.85879;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.84274;paint-order:stroke fill markers;stroke-linecap:round">i</tspan></text>
                                 <text
                                    xml:space="preserve"
-                                   style="font-style:normal;font-weight:normal;font-size:63.9139px;line-height:1.25;font-family:sans-serif;fill:url(#linearGradient932);fill-opacity:1;stroke:url(#linearGradient2163);stroke-width:3.8588;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+                                   style="font-style:normal;font-weight:normal;font-size:63.9139px;line-height:1.25;font-family:sans-serif;fill:url(#linearGradient932);fill-opacity:1;stroke:#414141;stroke-width:3.8588;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.84274;paint-order:stroke fill markers;stroke-linecap:round"
                                    x="120.65"
                                    y="66.324"
                                    id="text849-5"
@@ -555,10 +428,10 @@
                                    id="tspan847-2"
                                    x="120.65"
                                    y="66.324"
-                                   style="fill:url(#linearGradient932);fill-opacity:1;stroke:url(#linearGradient2163);stroke-width:3.8588;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers">h</tspan></text>
+                                   style="fill:url(#linearGradient932);fill-opacity:1;stroke:#414141;stroke-width:3.8588;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.84274;paint-order:stroke fill markers;stroke-linecap:round">h</tspan></text>
                                 <text
                                    xml:space="preserve"
-                                   style="font-style:normal;font-weight:normal;font-size:50.0934px;line-height:1.25;font-family:sans-serif;fill:url(#linearGradient900);fill-opacity:1;stroke:url(#linearGradient902);stroke-width:3.8588;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+                                   style="font-style:normal;font-weight:normal;font-size:50.0934px;line-height:1.25;font-family:sans-serif;fill:url(#linearGradient900);fill-opacity:1;stroke:#414141;stroke-width:3.8588;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.84274;paint-order:stroke fill markers;stroke-linecap:round"
                                    x="154.97"
                                    y="55.004"
                                    id="text893-4"
@@ -567,10 +440,10 @@
                                    id="tspan891-7"
                                    x="154.97"
                                    y="55.004"
-                                   style="fill:url(#linearGradient900);fill-opacity:1;stroke:url(#linearGradient902);stroke-width:3.8588;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers">a</tspan></text>
+                                   style="fill:url(#linearGradient900);fill-opacity:1;stroke:#414141;stroke-width:3.8588;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.84274;paint-order:stroke fill markers;stroke-linecap:round">a</tspan></text>
                                 <text
                                    xml:space="preserve"
-                                   style="font-style:normal;font-weight:normal;font-size:50.0934px;line-height:1.25;font-family:sans-serif;fill:url(#linearGradient928);fill-opacity:1;stroke:url(#linearGradient930);stroke-width:3.8588;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+                                   style="font-style:normal;font-weight:normal;font-size:50.0934px;line-height:1.25;font-family:sans-serif;fill:url(#linearGradient928);fill-opacity:1;stroke:#414141;stroke-width:3.8588;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.84274;paint-order:stroke fill markers;stroke-linecap:round"
                                    x="181.83"
                                    y="55.024"
                                    id="text893-1-5"
@@ -579,10 +452,10 @@
                                    id="tspan891-6-9"
                                    x="181.83"
                                    y="55.024"
-                                   style="fill:url(#linearGradient928);fill-opacity:1;stroke:url(#linearGradient930);stroke-width:3.8588;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers">n</tspan></text>
+                                   style="fill:url(#linearGradient928);fill-opacity:1;stroke:#414141;stroke-width:3.8588;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.84274;paint-order:stroke fill markers;stroke-linecap:round">n</tspan></text>
                                 <text
                                    xml:space="preserve"
-                                   style="font-style:normal;font-weight:normal;font-size:63.4289px;line-height:1.25;font-family:sans-serif;fill:url(#linearGradient924);fill-opacity:1;stroke:url(#linearGradient926);stroke-width:3.8588;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+                                   style="font-style:normal;font-weight:normal;font-size:63.4289px;line-height:1.25;font-family:sans-serif;fill:url(#linearGradient924);fill-opacity:1;stroke:#414141;stroke-width:3.8588;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.84274;paint-order:stroke fill markers;stroke-linecap:round"
                                    x="212.85"
                                    y="65.824"
                                    id="text919-5"
@@ -591,10 +464,10 @@
                                    id="tspan917-3"
                                    x="212.85"
                                    y="65.824"
-                                   style="fill:url(#linearGradient924);fill-opacity:1;stroke:url(#linearGradient926);stroke-width:3.8588;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers">t</tspan></text>
+                                   style="fill:url(#linearGradient924);fill-opacity:1;stroke:#414141;stroke-width:3.8588;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.84274;paint-order:stroke fill markers;stroke-linecap:round">t</tspan></text>
                                 <text
                                    xml:space="preserve"
-                                   style="font-style:normal;font-weight:normal;font-size:50.0934px;line-height:1.25;font-family:sans-serif;fill:url(#linearGradient904);fill-opacity:1;stroke:url(#linearGradient906);stroke-width:3.8588;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+                                   style="font-style:normal;font-weight:normal;font-size:50.0934px;line-height:1.25;font-family:sans-serif;fill:url(#linearGradient904);fill-opacity:1;stroke:#414141;stroke-width:3.8588;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.84274;paint-order:stroke fill markers;stroke-linecap:round"
                                    x="235.65"
                                    y="55.104"
                                    id="text893-1-5-6"
@@ -603,10 +476,10 @@
                                    id="tspan891-6-9-1"
                                    x="235.65"
                                    y="55.104"
-                                   style="fill:url(#linearGradient904);fill-opacity:1;stroke:url(#linearGradient906);stroke-width:3.8588;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers">i</tspan></text>
+                                   style="fill:url(#linearGradient904);fill-opacity:1;stroke:#414141;stroke-width:3.8588;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.84274;paint-order:stroke fill markers;stroke-linecap:round">i</tspan></text>
                                 <text
                                    xml:space="preserve"
-                                   style="font-style:normal;font-weight:normal;font-size:50.0934px;line-height:1.25;font-family:sans-serif;fill:url(#linearGradient920);fill-opacity:1;stroke:url(#linearGradient922);stroke-width:3.8588;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+                                   style="font-style:normal;font-weight:normal;font-size:50.0934px;line-height:1.25;font-family:sans-serif;fill:url(#linearGradient920);fill-opacity:1;stroke:#414141;stroke-width:3.8588;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.84274;paint-order:stroke fill markers;stroke-linecap:round"
                                    x="246.46"
                                    y="55.184"
                                    id="text893-1-5-6-7"
@@ -615,10 +488,10 @@
                                    id="tspan891-6-9-1-9"
                                    x="246.46"
                                    y="55.184"
-                                   style="fill:url(#linearGradient920);fill-opacity:1;stroke:url(#linearGradient922);stroke-width:3.8588;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers">n</tspan></text>
+                                   style="fill:url(#linearGradient920);fill-opacity:1;stroke:#414141;stroke-width:3.8588;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.84274;paint-order:stroke fill markers;stroke-linecap:round">n</tspan></text>
                                 <text
                                    xml:space="preserve"
-                                   style="font-style:normal;font-weight:normal;font-size:50.0934px;line-height:1.25;font-family:sans-serif;fill:url(#linearGradient916);fill-opacity:1;stroke:url(#linearGradient918);stroke-width:3.8588;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+                                   style="font-style:normal;font-weight:normal;font-size:50.0934px;line-height:1.25;font-family:sans-serif;fill:url(#linearGradient916);fill-opacity:1;stroke:#414141;stroke-width:3.8588;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.84274;paint-order:stroke fill markers;stroke-linecap:round"
                                    x="275.36"
                                    y="55.694"
                                    id="text893-1-5-6-7-1"
@@ -627,19 +500,19 @@
                                    id="tspan891-6-9-1-9-5"
                                    x="275.36"
                                    y="55.694"
-                                   style="fill:url(#linearGradient916);fill-opacity:1;stroke:url(#linearGradient918);stroke-width:3.8588;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers">e</tspan></text>
+                                   style="fill:url(#linearGradient916);fill-opacity:1;stroke:#414141;stroke-width:3.8588;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.84274;paint-order:stroke fill markers;stroke-linecap:round">e</tspan></text>
                                 <path
                                    d="m 124.98,33.223 c 0.42,34.41 -20.42,54.164 -52.67,41.038 L 72.165,85.135 C 71.861,108.28 52.48,104.24 39.407,100.21 l 0.131,-8.947 c 12.546,3.797 18.509,6.804 20.994,-1.913 l 1.48,-101.105 H 72.31 V 0.21392 C 106.49,-20.506 124.51,1.2595 124.98,33.223 Z m -9.16,0.418 C 115.96,0.95328 90.78,-4.7253 72.31,10.944 v 52.232 c 21.503,12.741 42.66,2.638 43.51,-29.535 z"
-                                   style="font-style:normal;font-weight:normal;font-size:110.171px;line-height:1.25;font-family:sans-serif;white-space:pre;inline-size:72.1522;fill:url(#linearGradient2268);fill-opacity:1;stroke:url(#linearGradient914);stroke-width:4.05174;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+                                   style="font-style:normal;font-weight:normal;font-size:110.171px;line-height:1.25;font-family:sans-serif;white-space:pre;inline-size:72.1522;fill:url(#linearGradient2268);fill-opacity:1;stroke:#414141;stroke-width:3.8588;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.84274;paint-order:stroke fill markers;stroke-linecap:round"
                                    id="path973-3"
                                    sodipodi:nodetypes="ccsccccccccccc" />
                                 <g
                                    id="g1322"
-                                   style="fill:url(#linearGradient911);fill-opacity:1;stroke:url(#linearGradient913);stroke-width:2.7784;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+                                   style="fill:url(#linearGradient911);fill-opacity:1;stroke:#414141;stroke-width:2.6461;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.84274;paint-order:stroke fill markers;stroke-linecap:round"
                                    transform="matrix(1.4583,0,0,1.4583,-58.843,-21.471)">
                                 <text
                                    xml:space="preserve"
-                                   style="font-style:normal;font-weight:normal;font-size:34.8509px;line-height:1.25;font-family:sans-serif;fill:url(#linearGradient2272);fill-opacity:1;stroke:url(#linearGradient909);stroke-width:2.77839;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+                                   style="font-style:normal;font-weight:normal;font-size:34.8509px;line-height:1.25;font-family:sans-serif;fill:url(#linearGradient2272);fill-opacity:1;stroke:#414141;stroke-width:2.64609;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.84274;paint-order:stroke fill markers;stroke-linecap:round"
                                    x="60.144"
                                    y="52.535"
                                    id="text889-2-9"
@@ -648,7 +521,8 @@
                                    id="tspan887-6-7"
                                    x="60.144"
                                    y="52.535"
-                                   style="fill:url(#linearGradient2272);fill-opacity:1;stroke:url(#linearGradient909);stroke-width:2.77839;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers">o</tspan></text>
+                                   style="fill:url(#linearGradient2272);fill-opacity:1;stroke:#414141;stroke-width:2.64609;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.84274;paint-order:stroke fill markers;stroke-linecap:round">o</tspan></text>
+                                </g>
                                 </g>
                               </g>
                             </g>

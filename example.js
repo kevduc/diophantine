@@ -14,7 +14,7 @@ switch (solutionType) {
     break
   }
   case SolutionType.Unique: {
-    console.log(`Unique solution: ${z[0] ? `x = ${z[0]}` : `y = ${z[1]}`}`)
+    console.log(`Unique solution: ${z[0] !== null ? `x = ${z[0]}` : `y = ${z[1]}`}`)
     break
   }
   case SolutionType.Linear: {
