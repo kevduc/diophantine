@@ -21,18 +21,9 @@
 
 <!-- [![package health](https://snyk.io/advisor/npm-package/diophantine/badge.svg)](https://snyk.io/advisor/npm-package/diophantine) -->
 
-#### **npm**
-
-**`npm i diophantine`**  
-[npmjs.com/diophantine](https://www.npmjs.com/package/diophantine)
-
-#### **Documentation**
-
-[kevduc.github.io/diophantine](https://kevduc.github.io/diophantine/)
-
-#### **GitHub**
-
-[kevduc/diophantine](https://github.com/kevduc/diophantine)
+**npm**: **`npm i diophantine`** – [npmjs.com/diophantine](https://www.npmjs.com/package/diophantine)  
+**Documentation**: [kevduc.github.io/diophantine](https://kevduc.github.io/diophantine/)  
+**GitHub**: [kevduc/diophantine](https://github.com/kevduc/diophantine)  
 
 ## Example
 
