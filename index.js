@@ -5,7 +5,7 @@
  * @param {number} b Coefficient for <code>y</code>
  * @param {number} c Right-side constant
  *
- * @returns {Result} One object with all the result values.
+ * @returns {Solution} An object with all the result values.
  */
 
 const dioSolve = (a, b, c) => {
@@ -19,8 +19,7 @@ const dioSolve = (a, b, c) => {
   const signs = [Math.sign(a), Math.sign(b)]
   ;[a, b] = [Math.abs(a), Math.abs(b)]
 
-  const steps = []
-  const g = gcd(a, b, steps)
+  const { g, steps } = gcd(a, b)
 
   if (g === 0 && c === 0) return { ...defaultReturn, g, solutionType: 'always-true' }
 
@@ -37,7 +36,7 @@ const dioSolve = (a, b, c) => {
   ;[a, b, c] = [a / g, b / g, c / g]
 
   // Get quotients from gcd calculation steps
-  const q = steps.map(([a, b]) => Math.floor(a / b)).reverse()
+  const q = steps.map(([a, b]) => Math.floor(a / b))
 
   let Ai1 = 0
   let Ai0 = 1
@@ -73,17 +72,33 @@ const dioSolve = (a, b, c) => {
   }
 }
 
-const gcd = (a, b, steps = []) => {
-  if (a === 0) return b
-  if (b === 0) return a
+/**
+ * @typedef {Object} GCD
+ * @property {number} g Value of <code>GCD(a,b)</code>
+ * @property {Array} steps Steps of the Euclidian algorithm, last step first: <code>[[an, bn], ..., [a0, b0]]</code>
+ */
+
+/**
+ * Finds the Greatest Common Divisor of <code>a</code> and <code>b</code> using the Euclidian algorithm
+ *
+ * @param {number} a Integer
+ * @param {number} b Integer
+ *
+ * @returns {GCD} An object with properties <code>g</code> (gcd value) and <code>steps</code> (steps of the Euclidian algorithm)
+ */
+
+const gcd = (a, b) => {
+  if (a === 0) return { g: b, steps: [] }
+  if (b === 0) return { g: a, steps: [] }
   const r = a % b
+  if (r === 0) return { g: Math.abs(b), steps: [[a, b]] }
+  const { g, steps } = gcd(b, r)
   steps.push([a, b])
-  if (r === 0) return Math.abs(b)
-  return gcd(b, r, steps)
+  return { g, steps }
 }
 
 /**
- * @typedef {Object} Result
+ * @typedef {Object} Solution
  * @property {SolutionType} solutionType Type of solution found, see <code>{@link SolutionType}</code> for more information.
  * @property {number|null} g Value of <code>GCD(a,b)</code>, <code>null</code> if error.
  * @property {(Array|null)} z Initial solution <code>[x<sub>0</sub>, y<sub>0</sub>]</code> found using the Euclidean algorithm when solution is linear, <code>[x<sub>0</sub>, null]</code> or <code>[null, y<sub>0</sub>]</code> when solution is unique, else <code>null</code>.
@@ -110,4 +125,4 @@ const SolutionType = {
   Error: 'error',
 }
 
-module.exports = { dioSolve, SolutionType }
+module.exports = { dioSolve, SolutionType, gcd }

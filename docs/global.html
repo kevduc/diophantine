@@ -24,7 +24,7 @@
 <label for="nav-trigger" class="overlay"></label>
 
 <nav>
-    <li class="nav-link nav-home-link"><a href="index.html">Home</a></li><li class="nav-heading"><a href="global.html">Globals</a></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#dioSolve">dioSolve</a></span></li><li class="nav-item"><span class="nav-item-type type-member">M</span><span class="nav-item-name"><a href="global.html#SolutionType">SolutionType</a></span></li>
+    <li class="nav-link nav-home-link"><a href="index.html">Home</a></li><li class="nav-heading"><a href="global.html">Globals</a></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#dioSolve">dioSolve</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#gcd">gcd</a></span></li><li class="nav-item"><span class="nav-item-type type-member">M</span><span class="nav-item-name"><a href="global.html#SolutionType">SolutionType</a></span></li>
 </nav>
 
 <div id="main">
@@ -308,7 +308,7 @@
     
     <dt class="tag-source">Source:</dt>
     <dd class="tag-source"><ul class="dummy"><li>
-        <a href="index.js.html">index.js</a>, <a href="index.js.html#line100">line 100</a>
+        <a href="index.js.html">index.js</a>, <a href="index.js.html#line115">line 115</a>
     </li></ul></dd>
     
 
@@ -349,7 +349,7 @@
 
     
 
-    <h4 class="name" id="dioSolve"><span class="type-signature"></span>dioSolve<span class="signature">(a, b, c)</span><span class="type-signature"> &rarr; {<a href="global.html#Result">Result</a>}</span></h4>
+    <h4 class="name" id="dioSolve"><span class="type-signature"></span>dioSolve<span class="signature">(a, b, c)</span><span class="type-signature"> &rarr; {<a href="global.html#Solution">Solution</a>}</span></h4>
 
     
 
@@ -538,7 +538,7 @@
     </dt>
     <dd>
         
-<span class="param-type"><code><a href="global.html#Result">Result</a></code></span>
+<span class="param-type"><code><a href="global.html#Solution">Solution</a></code></span>
 
 
     </dd>
@@ -546,7 +546,193 @@
 
 
 <div class="param-desc">
-    One object with all the result values.
+    An object with all the result values.
+</div>
+
+    
+</div>
+
+
+
+</div>
+        
+            
+<div class="section-method">
+
+    
+
+    <h4 class="name" id="gcd"><span class="type-signature"></span>gcd<span class="signature">(a, b)</span><span class="type-signature"> &rarr; {<a href="global.html#GCD">GCD</a>}</span></h4>
+
+    
+
+
+
+<div class="description">
+    Finds the Greatest Common Divisor of <code>a</code> and <code>b</code> using the Euclidian algorithm
+</div>
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="index.js.html">index.js</a>, <a href="index.js.html#line90">line 90</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>a</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type"><code>number</code></span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">
+                Integer
+                
+            </td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>b</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type"><code>number</code></span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">
+                Integer
+                
+            </td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="section-returns">
+<h5>Returns:</h5>
+
+        
+
+<dl class="param-type">
+    <dt>
+        Type:
+    </dt>
+    <dd>
+        
+<span class="param-type"><code><a href="global.html#GCD">GCD</a></code></span>
+
+
+    </dd>
+</dl>
+
+
+<div class="param-desc">
+    An object with properties <code>g</code> (gcd value) and <code>steps</code> (steps of the Euclidian algorithm)
 </div>
 
     
@@ -564,7 +750,156 @@
         
                 
 <div class="section-members">
-<h4 class="name" id="Result">Result</h4>
+<h4 class="name" id="GCD">GCD</h4>
+
+
+
+
+
+
+
+
+    <h5 class="subsection-title">Properties:</h5>
+
+    
+
+<table class="props">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>g</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type"><code>number</code></span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">Value of <code>GCD(a,b)</code></td>
+        </tr>
+
+        
+
+    
+
+        <tr>
+            
+                <td class="name"><code>steps</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type"><code>Array</code></span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">Steps of the Euclidian algorithm, last step first: <code>[[an, bn], ..., [a0, b0]]</code></td>
+        </tr>
+
+        
+
+    
+    </tbody>
+</table>
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="index.js.html">index.js</a>, <a href="index.js.html#line75">line 75</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+    <h5>Type:</h5>
+    <ul>
+        <li>
+            
+<span class="param-type"><code>Object</code></span>
+
+
+        </li>
+    </ul>
+
+
+
+
+
+</div>
+
+            
+                
+<div class="section-members">
+<h4 class="name" id="Solution">Solution</h4>
 
 
 
@@ -768,7 +1103,7 @@
     
     <dt class="tag-source">Source:</dt>
     <dd class="tag-source"><ul class="dummy"><li>
-        <a href="index.js.html">index.js</a>, <a href="index.js.html#line85">line 85</a>
+        <a href="index.js.html">index.js</a>, <a href="index.js.html#line100">line 100</a>
     </li></ul></dd>
     
 
@@ -813,7 +1148,7 @@
 <br class="clear">
 
 <footer>
-    Generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.6.6</a> on Fri May 14 2021 14:50:34 GMT+0100 (British Summer Time) using the Minami theme.
+    Generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.6.6</a> on Mon May 17 2021 08:03:00 GMT+0100 (British Summer Time) using the Minami theme.
 </footer>
 
 <script>prettyPrint();</script>
