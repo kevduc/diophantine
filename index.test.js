@@ -3,14 +3,14 @@ const { dioSolve, SolutionType } = require('.')
 expect.extend({
   toHaveLinearSolution(received) {
     const options = {
-      comment: 'Has a linear solution',
+      // comment: 'Has a linear solution',
       isNot: this.isNot,
       promise: this.promise,
     }
 
-    const hint = this.utils.matcherHint('toHaveLinearSolution', '[a, b, c]', '', options)
-
     const [a, b, c] = received
+    
+    const hint = this.utils.matcherHint('toHaveLinearSolution', `[${a}, ${b}, ${c}]`, '', options)
 
     const { solutionType, g, z, m, p } = dioSolve(a, b, c)
 
@@ -22,7 +22,7 @@ expect.extend({
         actual: received,
         message: () =>
           hint +
-          '\n\n' +
+          '\n' +
           'Solution type:\n' +
           `\tExpected: ${this.utils.printExpected(expectedSolutionType)}\n` +
           `\tReceived: ${this.utils.printReceived(solutionType)}`,
