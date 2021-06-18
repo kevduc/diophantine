@@ -21,11 +21,11 @@
 
 <!-- [![package health](https://snyk.io/advisor/npm-package/diophantine/badge.svg)](https://snyk.io/advisor/npm-package/diophantine) -->
 
-**npm**: **`npm i diophantine`** – [npmjs.com/diophantine](https://www.npmjs.com/package/diophantine)  
-**Documentation**: [kevduc.github.io/diophantine](https://kevduc.github.io/diophantine/)  
-**GitHub**: [kevduc/diophantine](https://github.com/kevduc/diophantine)
+📦 **npm**: **`npm i diophantine`** – [npmjs.com/diophantine](https://www.npmjs.com/package/diophantine)  
+📘 **Documentation**: [kevduc.github.io/diophantine](https://kevduc.github.io/diophantine/)  
+🐱‍💻 **GitHub**: [kevduc/diophantine](https://github.com/kevduc/diophantine)
 
-## Example
+## 👇 Example
 
 ### `example.js`
 
@@ -73,6 +73,6 @@ Solving: 59x + -7y = 4
 Solutions: x = 7n + 6, y = 59n + 50
 ```
 
-## Support the dev
+## ☕ Support the dev
 
 <p style="font-size:larger"><a href="https://commerce.coinbase.com/checkout/97a05cdf-7d82-4f9a-9a24-fbbc65ac5a4d">Donate a hot chocolate with crypto</a></p>
