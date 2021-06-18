@@ -5,7 +5,7 @@
 </p>
 
 <p align="center" style="text-align:center; font-size:large; margin-bottom:1rem;" >
-    Solve linear Diophantine equations<br/>
+    🧮 Solve linear Diophantine equations<br/>
     <code>ax + by = c</code>
 </p>
 
