@@ -1,13 +1,9 @@
-<p align="center" style="text-align:center; font-size:large;" >
-  <a href="https://kevduc.github.io/diophantine/">
-    <img width="350px" alt="diophantine" src="./logo/diophantine.png">
-  </a>
-</p>
 
-<p align="center" style="text-align:center; font-size:large; margin-bottom:1rem;" >
-    🧮 Solve linear Diophantine equations<br/>
-    <code>ax + by = c</code>
-</p>
+<h1 align="center">
+  <i>diophantine</i>
+</h1>
+
+## 🧮 Solve linear Diophantine equations of the form  `ax + by = c`
 
 [![npm package](https://img.shields.io/npm/v/diophantine)](https://www.npmjs.com/package/diophantine)
 [![documentation](https://img.shields.io/github/v/release/kevduc/diophantine?label=documentation)](https://kevduc.github.io/diophantine)
