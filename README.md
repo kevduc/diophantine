@@ -9,7 +9,6 @@
 [![documentation](https://img.shields.io/github/v/release/kevduc/diophantine?label=documentation)](https://kevduc.github.io/diophantine)
 [![downloads](https://img.shields.io/npm/dt/diophantine?label=downloads)](https://www.npmjs.com/package/diophantine)
 ![open issues](https://img.shields.io/github/issues-raw/kevduc/diophantine)
-[![dependencies](https://david-dm.org/kevduc/diophantine.svg)](https://david-dm.org/kevduc/diophantine)
 [![build](https://img.shields.io/github/workflow/status/kevduc/diophantine/npm-publish)](https://github.com/kevduc/diophantine/actions/workflows/npm-publish.yml)
 [![last commit](https://img.shields.io/github/last-commit/kevduc/diophantine)](https://github.com/kevduc/diophantine/commits/main)
 ![license](https://img.shields.io/github/license/kevduc/diophantine)
